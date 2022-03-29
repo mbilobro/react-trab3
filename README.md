@@ -26,8 +26,6 @@ Já devem ser instaladas as dependências que serão utilizadas: react-router-do
 ### Public
 - Index.html <br />
 Nesta página foi adicionado o Bootstrap para utilização em todas as páginas a serem desenvolvidas: link de estilos e o script.
-- "<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">"
-- "<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>"
 
 ### src
 - App.js <br />
