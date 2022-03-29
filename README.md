@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# Trabalho 3 - Frontend - DW
+  <br />
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Lucas Tadra Mainginski - RA: 17504926 <br />
+Luis Guilherme Molotto - RA: 18016126 <br />
+Matheus Bilobrovec - RA: 18011426
 
-## Available Scripts
+## Sobre o projeto
+Trabalho realizado para a disciplina de Desenvolvimento Web da UEPG, que consiste em desenvolver um sistema simples utilizando React para o front-end e qualquer framework da escolha do grupo para o backend.
+Optamos por utilizar Laravel e realizamos um CRUD de estudantes.
 
-In the project directory, you can run:
+## Requisitos
+- NodeJS
+- NPM ou Yarn
+- Axios
+- React-Router-Dom
+- Git
+- Bootstrap 5
 
-### `npm start`
+## Como criar o projeto React
+Depois de criar uma pasta para o projeto dentro do seu computador, abri o Git Bash da pasta e utilizamos o comando npx create-react-app (nome do app): após isso o projeto foi criado automaticamente para nós e se utilizar o comando cd (nome do app) e npm run, o projeto está funcionando no localhost:3000.
+Já devem ser instaladas as dependências que serão utilizadas: react-router-dom (npm install react-router-dom@5.2.0) foi utilizada esta versão, pois estávamos com dificuldades com a versão 6 e o axios (npm install axios).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Packages desenvolvidos
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Public
+- Index.html <br />
+Nesta página foi adicionado o Bootstrap para utilização em todas as páginas a serem desenvolvidas: link de estilos e o script.
+- "<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">"
+- "<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>"
 
-### `npm test`
+### src
+- App.js <br />
+Na app.js estão todas as rotas para redirecionamento dos componentes que temos em nosso projeto.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### src/pages
+Nas pages temos os componentes de cada uma das páginas do CRUD, as funções para que o haja a conexão com o backend, utilizando o Axios e funções para manipular a DOM do nosso Front.
+- AddStudent.js 
+- EditStudent.js
+- Student.js
 
-### `npm run build`
+## Materiais complementares
+- [Como instalar e utilizar React - Celke] (https://www.youtube.com/watch?v=tPdoxF0kunU) <br />
+- [React JS & Laravel 8- ReactJS CRUD with Laravel REST API from Scratch - Funda Coder] (https://www.youtube.com/watch?v=NidmTs2xZaE)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
